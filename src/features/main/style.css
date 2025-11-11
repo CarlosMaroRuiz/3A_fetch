@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: aqua;
+    color: white;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+a{
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+
+nav{
+    display: flex;
+    gap: 2px;
+}
