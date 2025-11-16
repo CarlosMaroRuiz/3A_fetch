@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear tarea</title>
+    <link rel="stylesheet" href="create-task.css">
+    <link rel="stylesheet" href="../../common//styles/modal.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mis tareas</h1>
+        <nav>
+            <a href="../../../index.html">Inicio</a>
+            <a href="#">Crear tareas</a>
+            <a href="#">Pendientes</a>
+        </nav>
+    </header>
+
+    <main class="page">
+
+        <section class="card">
+            <h2>Crear nueva tarea</h2>
+
+   
+            <form id="formTarea" class="task-form">
+
+                <div class="field">
+                    <label for="descripcion">Descripción</label>
+                    <input type="text" id="descripcion" placeholder="Ej: Hacer la compra">
+                </div>
+
+                <div class="field-checkbox">
+                    <input type="checkbox" id="completada">
+                    <label for="completada">Marcar como completada</label>
+                </div>
+
+                <button type="submit" class="btn">Guardar tarea</button>
+            </form>
+        </section>
+
+    </main>
+    <script type="module" src="./create.task.js"></script>
+</body>
+</html>
